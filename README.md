@@ -1,4 +1,4 @@
-# claude-skills
+# Claude-skills
 
 A personal collection of [Claude Skills](https://docs.claude.com) — reusable instruction sets that give Claude specialized, repeatable workflows for specific kinds of work.
 
