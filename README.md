@@ -12,6 +12,7 @@ A skill is a folder with a `SKILL.md` file describing when Claude should use it 
 |---|---|
 | [`video-to-mastery`](skills/video-to-mastery/SKILL.md) | Turns a long educational video (YouTube tutorials, lectures, programming/AI-ML/robotics/electronics walkthroughs) into a short, verified, up-to-date learning experience. Checks technical claims against current sources, flags what's outdated, preserves the underlying concept while updating stale implementation details, and teaches the essentials in a fraction of the runtime. |
 | [`technical-book-tutor`](skills/technical-book-tutor/SKILL.md) | Deep, plain-language tutoring for technical book excerpts in math, programming, ML, computer vision, CUDA, robotics, drones, and embedded systems. Paste in pages and get intuition → formal definition → formula/algorithm → implementation → edge cases, with worked examples, debugging protocols, and active-recall checks — not a paraphrase of the pages. |
+| [`linkedin-post-generator`](skills/linkedin-post-generator/SKILL.md) | Turns the technical concepts just discussed in a chat into a ready-to-post LinkedIn update. Triggered by the command "Create my post" — analyzes the preceding conversation and produces a formatted post (hook, why, scannable how, engagement question), a detailed image-generation prompt, and 2-3 Google Image search queries for real-world diagrams. |
 
 ## Structure
 
@@ -22,7 +23,9 @@ claude-skills/
 └── skills/
     ├── video-to-mastery/
     │   └── SKILL.md
-    └── technical-book-tutor/
+    ├── technical-book-tutor/
+    │   └── SKILL.md
+    └── linkedin-post-generator/
         └── SKILL.md
 ```
 
